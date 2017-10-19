@@ -22,7 +22,7 @@ Clone the repo somewhere, for instance:
 
     mkdir -p ~/code
     cd ~/code
-    git clone 
+    git clone https://github.com/jtpaasch/decipher.git
 
 Create a virtual environment:
 
