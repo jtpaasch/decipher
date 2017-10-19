@@ -1,9 +1,11 @@
-# Decipher
+Decipher
+========
 
 A little program that finds a monoalphabetic substitution key.
 
 
-## Strategy
+Strategy
+--------
 
 The program performs a sort of hill-climb/ascent to find a good key. 
 It starts with a random key and checks how likely the text it decodes
@@ -16,7 +18,8 @@ summing the natural log probabilities of all letter ngrams in the text.
 The probabilities for the ngrams are computed from a corpus text.
 
 
-## Installation
+Installation
+------------
 
 Clone the repo somewhere, for instance:
 
@@ -38,7 +41,8 @@ And install the package:
     pip install --editable .
 
 
-## Quality
+Quality
+-------
 
 From the root of the repo, run tox:
 
@@ -48,7 +52,8 @@ This will run the unittests, and print a coverage report.
 Only some tests are filled in, as examples.
 
 
-## Run the program
+Run the program
+---------------
 
 To execute the program, from the project's repo, with the virtual
 environment activated, try this:
