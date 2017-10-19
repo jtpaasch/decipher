@@ -3,6 +3,9 @@ Decipher
 
 A little program that finds a monoalphabetic substitution key.
 
+Requirements:
+* Python 3
+
 
 Strategy
 --------
@@ -27,7 +30,7 @@ Clone the repo somewhere, for instance::
     cd ~/code
     git clone https://github.com/jtpaasch/decipher.git
 
-Create a virtual environment::
+Create a virtual environment (Python 3)::
 
     python -m venv venv
     . venv/bin/activate
